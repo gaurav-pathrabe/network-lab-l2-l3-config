@@ -7,3 +7,8 @@ A comprehensive GNS3-based network lab simulating enterprise LAN/WAN connectivit
 ## TOPOLOGY
 
 <img width="854" height="569" alt="Screenshot 2025-12-03 102614" src="https://github.com/user-attachments/assets/1b6c6b10-3cef-4219-9bd9-4587f5a84fc3" />
+
+## PFSENSE Firewall
+
+<img width="667" height="368" alt="image" src="https://github.com/user-attachments/assets/28bae822-6fe5-402d-bfe9-905af2494ede" />
+
