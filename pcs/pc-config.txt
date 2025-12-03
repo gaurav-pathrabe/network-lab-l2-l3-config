@@ -1,0 +1,30 @@
+# ============================================
+# VPCS Configuration for 10.10.1.0/24 LAN
+# ============================================
+
+# -----------------------------
+# PC1 (VPCS1) - Mgmt/User PC
+# -----------------------------
+ip 10.10.1.10 255.255.255.0 10.10.1.1
+
+# Test connectivity
+ping 10.10.1.1     # Ping Router R1
+# Expected: Should reply
+
+
+# -----------------------------
+# PC2 (VPCS2) - Client PC
+# -----------------------------
+ip 10.10.1.11 255.255.255.0 10.10.1.1
+
+# Test connectivity
+ping 10.10.1.10    # Ping PC1
+# Expected: Should reply
+
+
+# --------------------------------
+# LAN Verification Summary
+# --------------------------------
+# ✔ PC1 ↔ Router R1 (10.10.1.1) reachable
+# ✔ PC2 ↔ PC1 communication works
+# ✔ LAN 10.10.1.0/24 is functioning
